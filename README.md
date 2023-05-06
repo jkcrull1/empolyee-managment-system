@@ -1,6 +1,6 @@
 # Employee Management System
 
-A simple Flask app for managing employee information using an SQLite database.
+A simple Flask app for managing employee information using an MYSQL database.
 
 ## Features
 
