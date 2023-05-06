@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+</head>
+<body>
+    <h1>Register an Employee</h1>
+    <form method="POST">
+        Name: <input type="text" name="EmpName" required><br>
+        Gender: <input type="text" name="EmpGender" required><br>
+        Phone: <input type="text" name="EmpPhone" required><br>
+        Birthdate: <input type="text" name="EmpBdate" required><br>
+        <input type="submit" value="Register">
+    </form>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>
+
